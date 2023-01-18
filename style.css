@@ -11,6 +11,11 @@ html{
    
 }
 
+.content-title{
+    font-size: 80;
+
+}
+
 .container{
 
     
@@ -110,19 +115,65 @@ html{
 
 .content{
 
- padding-top: 50px;
+    
+ 
  padding-bottom: 50px;
  display: flex;
+ align-items: center;
  flex-wrap: wrap;
  gap: 55px;
+ height:100vh;
 
 }
 
+.content-image{
+
+    height: 250px;
+    width: 250px;
+}
 .content-left{
-    flex-basis: 35%;
+    flex-basis: 25%;
+    
 }
 
 .content-right{
+    
     flex-basis: 60%;
+    
 }
 
+.text-spacing{
+    line-height: 30px;
+}
+
+.project-pic-container{
+    flex-basis: 100%;
+}
+
+.project-text-container{
+    flex-basis: 100%;
+    padding: 20px 20px;
+}
+
+.project-preview-pic{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.project-plate{
+
+    background-color: azure;
+    border-radius: 15px;
+    display:flex;
+    flex-wrap: wrap;
+    flex:1;
+    margin: 0px 20px 0px 0px ;
+    
+}
+
+.project-list {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
