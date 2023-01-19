@@ -55,8 +55,22 @@ html{
 
 }
 
+
 .nav-link:hover{
-    color:darkgrey;
+    
+    color:rgb(55, 163, 252);
+
+}
+
+#projects{
+    height:100vh;
+}
+
+#contact{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -89,34 +103,27 @@ html{
     margin: 20px;
 }
 
-.generic-button{
-
-    font-family: "Inter", sofia-sans;
-    color: white;
-    border: none;
-    background-color: rgb(134, 138, 138);
-    padding: 10px 20px;
-    font-size: 15px;
-    font-weight: 500;
-    border-radius: 7px;
-    cursor: pointer;
-
-}
-
-.generic-button:hover{
-
-    background-color: rgb(0, 170, 248);
-}
-
-.generic-button:active{
-
-    background-color: rgb(0, 0, 0);
-}
+.generic-button {
+border: none;
+  outline: none;
+  background-color: #6c5ce7;
+  padding: 10px 20px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+  border-radius: 5px;
+  transition: all ease 0.1s;
+  box-shadow: 0px 5px 0px 0px #a29bfe;
+  }
+  
+ .generic-button:active {
+    transform: translateY(5px);
+  box-shadow: 0px 0px 0px 0px #a29bfe;
+  }
 
 .content{
 
     
- 
  padding-bottom: 50px;
  display: flex;
  align-items: center;
@@ -160,14 +167,16 @@ html{
     border-radius: 15px;
 }
 
-.project-plate{
 
+
+.project-plate{
+    
     background-color: azure;
     border-radius: 15px;
     display:flex;
     flex-wrap: wrap;
     flex:1;
-    margin: 0px 20px 0px 0px ;
+    margin: 100px 20px 0px 0px ;
     
 }
 
@@ -177,3 +186,91 @@ html{
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+
+.icon-button {
+    padding: 1rem 2rem;
+    font-weight: 700;
+    background: rgb(255, 255, 255);
+    color: blueviolet;
+    border-radius: .5rem;
+    border-bottom: 2px solid blueviolet;
+    border-right: 2px solid blueviolet;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    transition-duration: 1s;
+    transition-property: border-top, 
+       border-left, 
+       border-bottom,
+       border-right,
+       box-shadow;
+   }
+   
+.icon-button:hover {
+    border-top: 2px solid blueviolet;
+    border-left: 2px solid blueviolet;
+    border-bottom: 2px solid rgb(238, 103, 238);
+    border-right: 2px solid rgb(238, 103, 238);
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px;
+}
+
+.fa-brands{
+
+    font-size:150px;
+}
+
+.fa-regular{
+
+    font-size:150px;
+}
+
+/* From uiverse.io by @alshahwan */
+/* From uiverse.io by @alshahwan */
+.linkedin-button {
+    background-color: #fff;
+    border: 1px solid #0077b5;
+    padding: 5px;
+    position: relative;
+    width: 7.2em;
+    height: 2em;
+    transition: 0.5s;
+    font-size: 17px;
+    border-radius: 0.4em;
+  }
+  
+  .linkedin-button p {
+    position: absolute;
+    top: 0.4em;
+    left: 1.2em;
+    margin: 0;
+    padding: 0;
+    transition: .5s;
+    color: #0077b5;
+  }
+  
+  .linkedin-button svg {
+    position: absolute;
+    top: 0.45em;
+    right: 0.5em;
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+    transition: 0.5s;
+    height: 1em;
+    fill: #fff
+  }
+  
+  .linkedin-button:hover p {
+    left: 0.6em;
+    color: #fff
+  }
+  
+  .linkedin-button:hover svg {
+    opacity: 1;
+  }
+  
+  .linkedin-button:hover {
+    background-color: #0077b5;
+  }
+
+
+  

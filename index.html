@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="https://kit.fontawesome.com/00a3a2e595.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,10 +23,10 @@
 
     <div id="home">
         <div>
-            <h1 class="home-page">Giancarlo Evacula</h1>
-            <h2 class="home-desc">A valorant addict</h2>
+            <h1 class="home-page"><span class="auto-type"></span></h1>
+            <h2 class="home-desc">A Toronto Met Student</h2>
             <div class="home-button">
-                    <button class="generic-button" onclick="">View More</button>
+                    <button class="generic-button" onclick="" href="#about">View More</button>
             </div>
         </div>
     </div>
@@ -47,13 +48,15 @@
             
             <div class="text-spacing">
                 <p>
-                    I love to play valorant and I want to be immortal one day. Currently I played all sentinels except Sage and suck at every other role.
+                    Hey! I am a second year Computer-Science student here at TMU. I am interested in Web Development and looking into frameworks.
+                    My favorite language to code in is Java. I have some experience in other languages which can be found in my resume. I enjoy
+                    front end work but back end is cool too. I have lots to practice though and will continue to learn.
                 </p>
                 <p>
-                    I am still learning html though. CSS is also being learned but it is sort of hard. And java script for last beacause that will be the worst one
+                    On my spare time I like to play Valorant and go the gym or play volleyball. I really like to eat and also make new friends.
                 </p>
                 <p>
-                   I love among us
+                   Currently studying and seeking new opportunities.
                 </p>
                 <div class="home-button">
                     <a href="./images/resume.pdf"><button class="generic-button">View Resume</button></a>
@@ -67,7 +70,7 @@
 
     
     <div id="projects">
-        <h2 class="content-title">My Projects</h2>
+        <h2 class="projects-title">My Projects</h2>
 
         <div class ="project-list">
 
@@ -82,7 +85,7 @@
                         <p>Evrah bot uses Weather API to retrieve weather information. There is also features that include random map selection for Valorant and more.</p>
                     </div>
     
-                    <a href=""><button>View Project</button></a>
+                    <a href="https://github.com/Gianev/Evrah"><button class="generic-button">View Project</button></a>
                 </div>
     
             </div>
@@ -98,7 +101,7 @@
                         <p>Grow is a Java game that is a spinoff version of the popular Feeding Frenzy game.</p>
                     </div>
     
-                    <a href=""><button>View Project</button></a>
+                    <a href="https://github.com/Gianev/Grow"><button class="generic-button">View Project</button></a>
                 </div>
     
             </div>
@@ -114,7 +117,7 @@
                         <p>The Hunter is a Java game that features different levels and tracks highscores</p>
                     </div>
     
-                    <a href=""><button>View Project</button></a>
+                    <a href="https://github.com/Gianev/The-Hunter"><button class="generic-button">View Project</button></a>
                 </div>
     
             </div>
@@ -127,13 +130,9 @@
 
         <div class="content" id="contact">
 
-            <h2>Contact Me</h2>
-            <p>
-                My linked in can be found here
-            </p>
-            <p>
-                My email can be accessed here
-            </p>
+            <a href="https://github.com/Gianev"><button class="icon-button"><i class="fa-brands fa-github-alt"></i></button></a>
+            <a href="https://www.linkedin.com/in/giancarlo-evacula-892a95239"><button class="icon-button"><i class="fa-brands fa-linkedin"></i></i></button></a>
+            <a href="mailto:giancarloe1203@gmail.com"><button class="icon-button"><i class="fa-regular fa-envelope"></i></i></button></a>
         </div>
 
     </div>
@@ -142,12 +141,22 @@
 
 </body>
 
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+
 <script>
-
-
+let typed= new Typed('.auto-type',{
+    strings:["^1000Giancarlo Evacula^1000"],
+    typeSpeed:90,
+    backSpeed:90,
+    loop:true,
     
-</script>
+    showCursor:true
+    
+});
 
+
+</script>
 
 
 </html>
