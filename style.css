@@ -233,7 +233,7 @@ border: none;
     padding-bottom: 7px;
     letter-spacing: 4px;
     font-size: 14px;
-    padding-right: -1px;
+    padding-right: 0px;
     text-transform: uppercase;
   }
   
